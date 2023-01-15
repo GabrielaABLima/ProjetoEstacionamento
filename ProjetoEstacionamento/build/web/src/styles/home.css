@@ -1,0 +1,229 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 de nov. de 2022, 01:42:45
+    Author     : Gabi
+*/
+
+
+
+/*
+    MENU
+*/
+
+.navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    background: #455A64;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+}
+
+.navbar ul li.active {
+    background: #fff;
+}
+
+
+
+
+.navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li.active a {
+    color: #455A64;
+}
+        
+        
+/*FIM MENU*/
+
+.navbar ul li b.left-curve {
+        position: absolute;
+        bottom: 0px;
+        left: -20px;
+        height: 100%;
+        width: 20px;
+        background: #fff;
+        display: none;
+    }
+
+    .navbar ul li b.left-curve::before {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-bottom-right-radius: 20px;
+        background: #455A64;
+    }
+
+    .navbar ul li b.right-curve {
+        position: absolute;
+        right: -20px;
+        top: 0px;
+        height: 100%;
+        width: 20px;
+        background: #fff;
+        display: none;
+    }
+
+    .navbar ul li b.right-curve::before {
+        content: "";
+        right: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        border-bottom-left-radius: 20px;
+        background: #455A64;
+    }
+
+    .navbar ul li.active b.left-curve,
+    .navbar ul li.active b.right-curve {
+        display: block;
+    }
+
+
+
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0px;
+    color: #455A64;
+  }
+  
+  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #407BFF;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+    color: #455A64; 
+  }
+  
+  #divHome{
+      width: 100%;
+  }
+  
+  #botaoCadastrar {
+    background-color: #407BFF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 3vh;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+  
+#container-botao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#container-botao-novo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 10vh;
+    height: 6vh;
+}
+
+#container-botao a{
+    padding-top: 10px;
+}
+  
+  
+@media only screen and (min-device-width: 1300px) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    main div{
+        width: 50%;
+    }
+    
+    #containerTexto{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 3vw;
+    }
+    
+}
+
+#img{
+    height: 100vh;
+}
+
+
+
+
+@media only screen and (max-device-width: 1300px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #containerTexto{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+}
+
+@media only screen and (max-device-width: 500px) {
+    #img{
+        height: 50vh;
+    }
+}
+

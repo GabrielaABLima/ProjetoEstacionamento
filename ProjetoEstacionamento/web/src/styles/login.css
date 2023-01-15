@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 de nov. de 2022, 04:37:36
+    Author     : Gabi
+*/
+#divForm {
+    display: flex;
+    flex-direction: column;  
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid #455A64;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0px;
+    color: #455A64;
+  }
+  
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #407BFF;
+  }
+  
+  #criarAutomovel{
+    background-color: #407BFF; 
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    margin-top: 3vh;
+    text-align: center;
+    
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+  

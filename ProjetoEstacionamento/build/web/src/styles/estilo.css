@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 de nov. de 2022, 22:25:44
+    Author     : Gabi
+*/
+table{
+    padding-top: 3vh;
+}
+th{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 4px;
+    padding-right: 25px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #455A64;
+    border-radius: 2px;
+    
+}
+
+.dadoTabela{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px;
+    padding-left: 4px;
+    padding-right: 25px;
+    letter-spacing: 2px;
+    color: #455A64;
+    background: #EBEBEB;
+    
+
+}
+
+table, th, td {
+    border-spacing: 1.5px;
+    border-bottom-width: thin;
+}
+
+
+.dadoTabela a{
+    color: #455A64;
+}
+
+#criarAutomovel{
+    cursor: pointer; 
+    height: 5vh; 
+    width: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#criarEstacionamento{
+    cursor: pointer; 
+    height: 5vh; 
+    width: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index:1;
+    left: 75vh;
+    top: 20vh;
+    width: 30%;
+    height: 60%;
+    overflow: auto;
+    background-color: white;  
+    border-radius: 25px;
+    box-shadow: 1px 25px 20px 100vw rgba(0, 0, 0, 0.5);
+}
+
+.modalEdit{
+    display: none;
+    position: fixed;
+    z-index:1;
+    left: 75vh;
+    top: 20vh;
+    width: 30%;
+    height: 60%;
+    overflow: auto;
+    background-color: white;  
+    border-radius: 25px;
+    box-shadow: 1px 25px 20px 100vw rgba(0, 0, 0, 0.5);
+}
+
+.modalEdit button{
+    border-radius: 20px 0px 20px 0px;
+    width: 60px;
+    height: 45px;
+}
+
+.modalEdit .content{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal button{
+    border-radius: 20px 0px 20px 0px;
+    width: 60px;
+    height: 45px;
+}
+
+.modal .content{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formModal{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.item_form{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid #455A64;
+}
+#divCheck{
+    width: 92%;
+    font-weight: 300;
+}
+
+
